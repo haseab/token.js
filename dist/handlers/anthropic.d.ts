@@ -8,7 +8,7 @@ export declare const convertToolParams: (toolChoice: CompletionParams["tool_choi
     toolChoice: MessageCreateParamsNonStreaming["tool_choice"];
     tools: MessageCreateParamsNonStreaming["tools"];
 };
-export declare const getDefaultMaxTokens: (model: string) => number;
+export declare const getDefaultMaxTokens: (model: AnthropicModel) => number;
 export declare const convertMessages: (messages: CompletionParams["messages"]) => Promise<{
     messages: MessageCreateParamsNonStreaming["messages"];
     systemMessage: string | undefined;

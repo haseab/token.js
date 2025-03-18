@@ -342,7 +342,7 @@ export const getDefaultMaxTokens = (model: string): number => {
   ) {
     return 4096
   } else {
-    throw new InputError(`Unknown model: ${model}`)
+    return 8192
   }
 }
 
