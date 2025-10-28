@@ -143,6 +143,9 @@ export const models = {
   },
   anthropic: {
     models: [
+      'claude-sonnet-4-5',
+      'claude-sonnet-4-5-latest',
+      'claude-sonnet-4-5-20250929',
       'claude-3-7-sonnet-latest',
       'claude-3-7-sonnet-20250219',
       'claude-3-5-sonnet-latest',
@@ -157,6 +160,9 @@ export const models = {
     ] as const,
     supportsCompletion: true,
     supportsStreaming: [
+      'claude-sonnet-4-5',
+      'claude-sonnet-4-5-latest',
+      'claude-sonnet-4-5-20250929',
       'claude-3-7-sonnet-latest',
       'claude-3-7-sonnet-20250219',
       'claude-3-5-sonnet-latest',
@@ -171,6 +177,9 @@ export const models = {
     ] as const,
     supportsJSON: [] as const,
     supportsImages: [
+      'claude-sonnet-4-5',
+      'claude-sonnet-4-5-latest',
+      'claude-sonnet-4-5-20250929',
       'claude-3-7-sonnet-latest',
       'claude-3-7-sonnet-20250219',
       'claude-3-5-sonnet-latest',
@@ -180,6 +189,9 @@ export const models = {
       'claude-3-haiku-20240307',
     ] as const,
     supportsToolCalls: [
+      'claude-sonnet-4-5',
+      'claude-sonnet-4-5-latest',
+      'claude-sonnet-4-5-20250929',
       'claude-3-7-sonnet-latest',
       'claude-3-7-sonnet-20250219',
       'claude-3-5-sonnet-latest',
