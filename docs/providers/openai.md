@@ -40,6 +40,7 @@ main()
 
 | Model                      | Chat Completion | Streaming | JSON Output | Image Input | Function Calling | N > 1 |
 | -------------------------- | --------------- | --------- | ----------- | ----------- | ---------------- | ----- |
+| gpt-5                      | ✅               | ✅         | ✅           | ✅           | ✅                | ✅     |
 | gpt-4.5-preview            | ✅               | ✅         | ✅           | ✅           | ✅                | ✅     |
 | gpt-4.5-preview-2025-02-27 | ✅               | ✅         | ✅           | ✅           | ✅                | ✅     |
 | gpt-4o                     | ✅               | ✅         | ✅           | ✅           | ✅                | ✅     |
